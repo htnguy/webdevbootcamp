@@ -3,14 +3,56 @@
   <head>
     <title>Dogs are Great!</title>
   </head>
-  <body>
+  <body style="background: red;">
     <h1>Header 1</h1>
     <h2>Header 2</h2>
     <h3>Header 3</h3>
     <h4>Header 4</h4>
     <h5>Header 5</h5>
-	<h6>Header 6</h6>
-	
-	<img src="cutedog.jpeg" alt="cute dog">
+    <h6>Header 6</h6>
+
+    <img src="cutedog.jpeg" alt="cute dog" />
+
+    <table>
+      <tr>
+        <th>name</th>
+        <th>favorite food</th>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>Donuts</td>
+      </tr>
+      <tr>
+        <td>Sara</td>
+        <td>Ice cream</td>
+      </tr>
+    </table>
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+    <div>
+      <h1>This is a container for my cookie</h1>
+      <p>flavor: chocolate</p>
+    </div>
+
+    <form action="/receive-form" method="POST">
+      <input type="text" id="name" placeholder="Enter your name" />
+      <label for="name">Name:</label>
+
+      <input type="email" id="email" placeholder="enter your email" />
+      <label for="email">Email:</label>
+
+      <input type="password" id="password" placeholder="enter your password" />
+      <label for="password">Password:</label>
+
+      <button type="submit">submit</button>
+    </form>
   </body>
 </html>
