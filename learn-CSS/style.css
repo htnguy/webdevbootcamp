@@ -1,0 +1,9 @@
+h1 {
+  color: pink;
+  font-weight: bold;
+}
+
+.blue-box {
+  border: 1px solid blue;
+  color: blue;
+}
